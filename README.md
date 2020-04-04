@@ -1,0 +1,2 @@
+# makinaogrenmesi
+Makina Ogrenmesi Algoritmalari 
