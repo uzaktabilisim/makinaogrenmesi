@@ -1,2 +1,4 @@
 # makinaogrenmesi
-Makina Ogrenmesi Algoritmalari 
+Makina Ogrenmesi Algoritmalari
+
+## Initial commit. 
