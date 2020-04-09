@@ -127,3 +127,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Train results and models of StereosSR
+*.npy
+*.pth

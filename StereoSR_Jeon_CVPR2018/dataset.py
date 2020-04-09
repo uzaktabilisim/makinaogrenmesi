@@ -30,7 +30,6 @@ class Dataset(torch.utils.data.Dataset):
             self.input_all[i, :, :, :] = input
             self.target_all[i, :, :, :] = target
 
-
     def __len__(self):
         return self.D
 
@@ -46,11 +45,13 @@ def make_input(image_folder, N, L, S, D, SH):
     if not 'target' in os.listdir('./data'):
         os.mkdir('data/target')
     for d in tqdm(range(D)):
-        img_id = np.random.randint(800)+1
-        img_L = np.array(Image.open(
-            image_folder+str(img_id).zfill(3)+'_L.png'))
-        img_R = np.array(Image.open(
-            image_folder+str(img_id).zfill(3)+'_R.png'))
+        # img_id = np.random.randint(800)+1
+        # img_L = np.array(Image.open(
+        #     image_folder+str(img_id).zfill(3)+'_L.png'))
+        # img_R = np.array(Image.open(
+        #     image_folder+str(img_id).zfill(3)+'_R.png'))
+        img_L = np.array(Image.open(image_folder+str('CAY_L_lowres.jpg')))
+        img_R = np.array(Image.open(image_folder+str('CAY_R_lowres.jpg')))
         top = np.random.randint(0, img_L.shape[0]-L*S)
         left = np.random.randint(SH*S, img_L.shape[1]-L*S)
         img_L_HR = img_L[top:top+L*S, left:left+L*S, :]
@@ -68,7 +69,7 @@ def make_input(image_folder, N, L, S, D, SH):
                   3] = np.array(img_L_LR.resize([L*S, L*S], resample=Image.BICUBIC))
 
         for i in range(SH):
-            #img_R_LR = img_R_LR.resize([L*S, L*S], resample=Image.BICUBIC)
+            # img_R_LR = img_R_LR.resize([L*S, L*S], resample=Image.BICUBIC)
             if i == 0:
                 img = img_R_LR[:, -33*S:, :]
             else:
