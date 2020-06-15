@@ -1,0 +1,47 @@
+Adam — latest trends in deep learning optimization.
+https://towardsdatascience.com/adam-latest-trends-in-deep-learning-optimization-6be9a291375c
+
+The Marginal Value of Adaptive Gradient Methodsin Machine Learning
+https://arxiv.org/pdf/1705.08292.pdf
+
+what is the main difference between GAN and autoencoder?
+https://datascience.stackexchange.com/questions/55090/what-is-the-main-difference-between-gan-and-autoencoder
+
+Conditional Generative Adversarial Networks (CGAN): Introduction and Implementation
+https://theailearner.com/2019/09/27/conditional-generative-adversarial-networks-cgan-introduction-and-implementation/
+
+Implementation of CycleGAN for Image-to-image Translation
+https://theailearner.com/tag/patchgan/
+
+Precomputed Real-Time Texture Synthesis withMarkovian Generative Adversarial Networks(PatchGAN)
+https://arxiv.org/pdf/1604.04382.pdf
+
+Effect of Batch Size on Neural Net Training
+https://medium.com/deep-learning-experiments/effect-of-batch-size-on-neural-net-training-c5ae8516e57
+
+What Are L1 and L2 Loss Functions?
+https://afteracademy.com/blog/what-are-l1-and-l2-loss-functions
+
+On Loss Functions for Deep Neural Networksin Classification
+https://arxiv.org/pdf/1702.05659.pdf
+
+GAN — Why it is so hard to train Generative Adversarial Networks!
+https://medium.com/@jonathan_hui/gan-why-it-is-so-hard-to-train-generative-advisory-networks-819a86b3750b
+
+GAN — CGAN & InfoGAN (using labels to improve GAN)
+https://medium.com/@jonathan_hui/gan-cgan-infogan-using-labels-to-improve-gan-8ba4de5f9c3d
+
+Conditional Generative Adversarial Nets
+https://arxiv.org/pdf/1411.1784.pdf
+
+Image-to-Image Translation in Tensorflow(pix2pix)
+https://affinelayer.com/pix2pix/
+
+Pix2Pix Tensorflow2
+https://colab.research.google.com/github/tensorflow/docs/blob/master/site/en/tutorials/generative/pix2pix.ipynb#scrollTo=wozqyTh2wmCu
+
+Image-to-Image Translation with Conditional Adversarial Networks
+https://arxiv.org/pdf/1611.07004.pdf
+
+Image-to-Image Translation with Conditional Adversarial Nets
+https://phillipi.github.io/pix2pix/
